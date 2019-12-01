@@ -12,6 +12,9 @@ class Dog
  		@@all.clear
 
  	end
+ 	
+ 	def self.print_all
+ 	  @@print.print
 
  	def self.all
  		@@all.each do |dog|
