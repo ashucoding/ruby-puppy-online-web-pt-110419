@@ -21,6 +21,11 @@ class Dog
     end
   end
   
+  def self.save
+    @@all.each do |dog|
+      puts dog.save
+    end
+  end
 
   def self.clear_all
     @@all.clear
